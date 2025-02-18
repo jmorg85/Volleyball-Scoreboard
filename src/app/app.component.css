@@ -4,6 +4,10 @@
   height: 85vh;
 }
 
+.team-name-row {
+  background-color: white;
+}
+
 .left-half, .right-half {
   flex: 1;
   display: flex;
