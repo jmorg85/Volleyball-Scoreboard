@@ -1,14 +1,13 @@
 .container {
   display: flex;
-  width: 100vw;
+  width: 90vw;
   height: 85vh;
 }
 
-/* Left and Right Halves */
 .left-half, .right-half {
   flex: 1;
   display: flex;
-  flex-direction: column; /* Stack divs vertically */
+  flex-direction: column;
   align-items: center;
   padding: 20px;
   font-size: 25px;
@@ -24,6 +23,7 @@
 
 .reset-button-container {
   display: flex;
+  width: 90vw;
 }
 
 .reset-button {
@@ -47,7 +47,6 @@
   color: blue;
 }
 
-/* Nested Boxes */
 .box {
   width: 80%;
   padding: 20px;
@@ -56,4 +55,19 @@
   font-size: 1.2em;
   color: white;
   border-radius: 8px;
+}
+
+.background-button-container {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+}
+
+.background-button {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  font-size: 25px;
 }
