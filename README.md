@@ -24,3 +24,14 @@ Or you can copy the web address of this repo and clone the git repo in the same 
 
 ![image](https://github.com/user-attachments/assets/810a7cf8-632c-4553-b9a9-82ad1034871b)
 
+Once that's done, assuming you did this in the command window, you open VS Code and click File -> Open Folder and find the folder containing the scoreboard. Then navigate to this folder that contains these files.
+
+![image](https://github.com/user-attachments/assets/7d59d13f-1bb0-4973-91e3-d8be06ba92ac)
+
+Once here, press ctrl + `at the same time to open the visual studio terminal. Here you'll run all the necessary commands to make sure you're setup. Make sure you have npm, node.js, and angular cli installed. To do that, check the versions, as seen down below:
+
+![image](https://github.com/user-attachments/assets/59979e7b-04b0-4b73-b9d1-fe4b8c2bb471)
+
+If you don't have angular, then this next step fixes that and is what you should do if you do have angular installed. Run **npm install**. Once done, you should see a folder called **node_modules**.
+
+Finally, to run the project type **ng serve --open** in the visual studio terminal and you should be good to go. Happy score keeping!
