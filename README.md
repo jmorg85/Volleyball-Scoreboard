@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/33f0cac3-bbcf-42a0-844d-09348da5c84b
 To run this you need to have the following software installed: 
 
 -  [Node.Js](https://nodejs.org/en/download)
--  [Git](https://git-scm.com/downloads)
+-  [Git](https://git-scm.com/downloads) - optional if you plan on using Git Clone to download this repo vs a zip folder.
 
 # Setting up the scoreboard
 
@@ -32,6 +32,6 @@ Once here, press ctrl + `at the same time to open the visual studio terminal. He
 
 ![image](https://github.com/user-attachments/assets/59979e7b-04b0-4b73-b9d1-fe4b8c2bb471)
 
-If you don't have angular, then this next step fixes that and is what you should do if you do have angular installed. Run **npm install**. Once done, you should see a folder called **node_modules**.
+If you don't have angular, then this next step fixes that. Type **npm install -g @angular/cli** and that should install the Angular CLI for you. Next, run **npm install**. Once done, you should see a folder called **node_modules**.
 
 Finally, to run the project type **ng serve --open** in the visual studio terminal and you should be good to go. Happy score keeping!
