@@ -1,31 +1,26 @@
-# VolleyballScoreboard
+# Volleyball Scoreboard description and inspiration
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+As the description says, I play in a recreational volleyball league in my spare time and my league didn't have a score board. So I made my own using the angular framework as my frontend framework of choice. If you don't have angular or any of the required software to run this I will include installation instructions below.
 
 # Video Demo
 
 https://github.com/user-attachments/assets/33f0cac3-bbcf-42a0-844d-09348da5c84b
 
-## Development server
+# Required Software
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To run this you need to have the following software installed: 
 
-## Code scaffolding
+-  [Node.Js](https://nodejs.org/en/download)
+-  [Git](https://git-scm.com/downloads)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Setting up the scoreboard
 
-## Build
+To set up the scoreboard, first you need to download the git repo. You can either download the zip file and download it in the same folder where you store your visual studio code projects. As seen below.
+![Github repo download screenshot - download zip](https://github.com/user-attachments/assets/72eda356-9d1f-469f-9ab7-7aa9f0434c6c)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![image](https://github.com/user-attachments/assets/110cc305-b6b9-404a-8f4b-8538740a9b46)
 
-## Running unit tests
+Or you can copy the web address of this repo and clone the git repo in the same folder mentioned earlier using either the command terminal or your IDE of choice. For this I'm using Visual Studio code.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![image](https://github.com/user-attachments/assets/810a7cf8-632c-4553-b9a9-82ad1034871b)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
