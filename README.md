@@ -1,27 +1,37 @@
-# VolleyballScoreboard
+# Volleyball Scoreboard description and inspiration
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+As the description says, I play in a recreational volleyball league in my spare time and my league didn't have a score board. So I made my own using the angular framework as my frontend framework of choice. If you don't have angular or any of the required software to run this I will include installation instructions below.
 
-## Development server
+# Video Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+https://github.com/user-attachments/assets/33f0cac3-bbcf-42a0-844d-09348da5c84b
 
-## Code scaffolding
+# Required Software
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To run this you need to have the following software installed: 
 
-## Build
+-  [Node.Js](https://nodejs.org/en/download)
+-  [Git](https://git-scm.com/downloads) - optional if you plan on using Git Clone to download this repo vs a zip folder.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Setting up the scoreboard
 
-## Running unit tests
+To set up the scoreboard, first you need to download the git repo. You can either download the zip file and download it in the same folder where you store your visual studio code projects. As seen below.
+![Github repo download screenshot - download zip](https://github.com/user-attachments/assets/72eda356-9d1f-469f-9ab7-7aa9f0434c6c)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![image](https://github.com/user-attachments/assets/110cc305-b6b9-404a-8f4b-8538740a9b46)
 
-## Running end-to-end tests
+Or you can copy the web address of this repo and clone the git repo in the same folder mentioned earlier using either the command terminal or your IDE of choice. For this I'm using Visual Studio code.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![image](https://github.com/user-attachments/assets/810a7cf8-632c-4553-b9a9-82ad1034871b)
 
-## Further help
+Once that's done, assuming you did this in the command window, you open VS Code and click File -> Open Folder and find the folder containing the scoreboard. Then navigate to this folder that contains these files.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://github.com/user-attachments/assets/7d59d13f-1bb0-4973-91e3-d8be06ba92ac)
+
+Once here, press ctrl + `at the same time to open the visual studio terminal. Here you'll run all the necessary commands to make sure you're setup. Make sure you have npm, node.js, and angular cli installed. To do that, check the versions, as seen down below:
+
+![image](https://github.com/user-attachments/assets/59979e7b-04b0-4b73-b9d1-fe4b8c2bb471)
+
+If you don't have angular, then this next step fixes that. Type **npm install -g @angular/cli** and that should install the Angular CLI for you. Next, run **npm install**. Once done, you should see a folder called **node_modules**.
+
+Finally, to run the project type **ng serve --open** in the visual studio terminal and you should be good to go. Happy score keeping!
