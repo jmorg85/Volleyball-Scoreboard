@@ -12,6 +12,7 @@ To run this you need to have the following software installed:
 
 -  [Node.Js](https://nodejs.org/en/download)
 -  [Git](https://git-scm.com/downloads) - optional if you plan on using Git Clone to download this repo vs a zip folder.
+-  [Visual Studio Code](https://code.visualstudio.com/download) (since this readme is done in here, but if you want to use another IDE then by all means go for it.)
 
 # Setting up the scoreboard
 
