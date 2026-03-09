@@ -23,6 +23,8 @@ To set up the scoreboard, first you need to download the git repo. You can eithe
 
 Or you can copy the web address of this repo and clone the git repo in the same folder mentioned earlier using either the command terminal or your IDE of choice. For this I'm using Visual Studio code.
 
+![Github Repo link](https://github.com/user-attachments/assets/5e14a37a-e65d-47cc-913c-280697b84bab)
+
 ![image](https://github.com/user-attachments/assets/810a7cf8-632c-4553-b9a9-82ad1034871b)
 
 Once that's done, assuming you did this in the command window, you open VS Code and click File -> Open Folder and find the folder containing the scoreboard. Then navigate to this folder that contains these files.
