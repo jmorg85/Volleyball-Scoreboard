@@ -13,7 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/volleyball-scoreboard",
+            "outputPath": {
+              "base": "dist/volleyball-scoreboard",
+              "media": "media"
+            },
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
